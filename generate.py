@@ -37,7 +37,6 @@ input_trunc = inputs['truncation']
 dim_z = input_z.shape.as_list()[1]
 vocab_size = input_y.shape.as_list()[1]
 
-  
 
 # Create a TensorFlow session and initialize variables
 initializer = tf.global_variables_initializer()
@@ -49,7 +48,7 @@ minv = 1
 maxv = 10
 
 
-#num of 10
+# num of 10
 insect_list = [69,70,71,72,73,74,75,76,77,78,79]
 #num of 13
 fungi = [815,986,987,989,990,991,992,993,994,995,996,997,998]
